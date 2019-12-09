@@ -1,0 +1,21 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "This is a documentation of all API's in PRISM",
+    "version" : "v1",
+    "title" : "PRISM API Documentation",
+    "termsOfService" : "http://www.github.com/",
+    "license" : {
+      "name" : "Apache 2.0",
+      "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "host" : "localhost:8080",
+  "basePath" : "/prism-api/rest",
+  "schemes" : [ "http" ],
+  "securityDefinitions" : {
+    "api_key" : {
+      "type" : "basic"
+    }
+  }
+}
